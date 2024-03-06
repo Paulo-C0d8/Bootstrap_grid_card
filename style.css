@@ -104,7 +104,7 @@ a:hover {
 
     .row .col-6 {
         width: 37%;
-    }
+    } /*3° Artigo. Retirado Col-6*/
 
     .row img {
         width: 230px;
@@ -138,7 +138,7 @@ a:hover {
     .col-4,
     .col-6 {
         width: 375px;
-    }
+    } /*3° Artigo. Retirado Col-6*/
 
     .row {
         display: block;
