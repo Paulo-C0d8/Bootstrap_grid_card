@@ -13,7 +13,6 @@ header {
 
 .container {
     width: 2160px;
-    height: 1880px;
 }
 
 body {
@@ -115,9 +114,12 @@ a:hover {
 
     .card {
         align-content: center;
-        margin: 1em 0 2em 7em;
+        position: relative;
+        left: 8%;
     }
 }
+
+/*MOBILE SE*/
 
 @media screen and (min-width:375px) and (max-width:667px) {
     .container {
@@ -158,6 +160,8 @@ a:hover {
         padding: 8px;
         width: 350px;
         height: 400px;
+        position: relative;
+        left: 1%;
     }
 
     .card-header {
