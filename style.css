@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(245, 193, 124);
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 2160px;
+    height: 1880px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    width: 1000px;
+    height: 600px;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 12px;
+    text-align: center;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.row img {
+    border-radius: 12px;
+    height: 380px;
+    width: 430px;
+}
+
+.col img {
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.col {
+    text-align: center;
+    padding: 12px;
+    width: 400px;
+}
+
+h3 {
+    text-align: center;
+    padding: 12px 0 6px 0;
+    margin: unset;
+}
+
+a,
+a h3 {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: rgb(126, 221, 245);
+    width: 500px;
+    padding: 16px;
+    margin: 2em 0 0 3.5em;
+    text-align: center;
+    border-radius: 12px;
+    left: 28%;
+}
+
+.card h3 {
+    background-color: rgb(57, 154, 239);
+    border-radius: 8px;
+}
+
+.card img {
+    height: 350px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.card-footer {
+    background-color: rgb(57, 154, 239);
+    border-radius: 18px;
+}
+
+/* TABLET AIR*/
+
+@media screen and (min-width:820px) and (max-width:1180px) {
+    .row {
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .row .col-6 {
+        width: 37%;
+    }
+
+    .row img {
+        width: 230px;
+        height: 200px;
+        margin: 12px;
+    }
+
+    .card {
+        align-content: center;
+        margin: 1em 0 2em 7em;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:667px) {
+    .container {
+        width: 375px;
+    } 
+    
+    .carousel-item img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .col-4,
+    .col-6 {
+        width: 375px;
+    }
+
+    .row {
+        display: block;
+        margin-left: 12px;
+    }
+
+    .row img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .row h3 {
+        font-size: 20px;
+        text-align:center ;
+    }
+
+    .card {
+        margin: unset;
+        padding: 8px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .card-header {
+        padding: unset;
+        margin-bottom: 3px;
+    }
+
+    .card-header h3 {
+        padding: 6px;
+        font-size: 20px;
+    }
+
+    .card img {
+        margin-top: 8px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .card-body h4 {
+        margin: unset;
+        font-size: 16px;
+    }
+
+    .card-body,
+    p {
+        font-size: 12px;
+        padding: unset;
+        padding-top: 12px;
+    }
+
+    .card-footer {
+        padding: unset;
+    }
+}
